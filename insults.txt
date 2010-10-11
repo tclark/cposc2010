@@ -1,0 +1,9 @@
+cobol:COBOL programs are an exercise in Artificial Inelegance
+java:Saying that Java is nice because it works on all OSs is like saying that anal sex is nice because it works on all genders.
+python:What's the difference between four spaces and a tab?  If you care, then you must be a Python programmer.
+perl:How do you generate a string of random characters in Python?  Read in a Perl file.
+ruby:
+c:
+c++:When your hammer is C++, everything begins to look like a thumb. 
+lisp:
+fortran:

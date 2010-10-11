@@ -1,0 +1,14 @@
+These are materials prepared for my talk, Writing Networked Applications in Python with Twisted, presented at the Central Pennsylvania Open Source Conference (cposc.org) on October 16, 2010.
+
+Files:
+  README - this document
+  cposc_slides.odp - slides in Open Document format
+  cposc_slides.pdf - slides in PDF format
+  hello.py - "Hello, World" with twisted
+  insultserver.py - a basic server written with twisted that insults its users
+  insultclient.py - a twisted client that works with the insult server
+  insultserver_twistd.py - an alternate version of insultserver.py for use with twistd
+  insultserver_app.py - the application file that launches the insult server with twistd
+  insults.txt - a text file with topics and insults
+  
+--Tom Clark (tclark@requisitesystems.com)

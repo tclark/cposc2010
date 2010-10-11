@@ -21,7 +21,7 @@ class Insults:
             return(self.insults[topic])
         except KeyError:
             return("I've got nothing.")
-	
+    
     def getTopics(self):
         return self.insults.keys()
 
@@ -46,13 +46,13 @@ class InsultServerProtocol(LineReceiver):
         elif line == "help":
             self.getHelp()
         else:
-	        self.sendLine(self.insults.getInsult(line))
+            self.sendLine(self.insults.getInsult(line))
         
 class InsultServerFactory(Factory):
     protocol = InsultServerProtocol
     
     def __init__(self,greetings):
-	    self.greeting_lines = greetings
+        self.greeting_lines = greetings
     
 
 class InsultService(internet.TCPServer):

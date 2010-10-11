@@ -56,6 +56,6 @@ class InsultServerFactory(Factory):
     
 
 class InsultService(internet.TCPServer):
-	def __init__(self, port, greetings):
-		internet.TCPServer.__init__(self, port, InsultServerFactory(greetings))
+    def __init__(self, port, greetings):
+        internet.TCPServer.__init__(self, port, InsultServerFactory(greetings))
     
